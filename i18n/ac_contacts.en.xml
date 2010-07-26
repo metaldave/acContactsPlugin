@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="it_IT" datatype="plaintext">
+    <body>
+    
+    
+      <trans-unit>
+        <source>ac_contacts_title</source>
+        <target>Contact us</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_message</source>
+        <target></target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Nome</source>
+        <target>Name</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Cognome</source>
+        <target>Surname</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Telefono</source>
+        <target>Phone</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>Messaggio</source>
+        <target>Message</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_thanks</source>
+        <target>Thanks for contacting us</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_privacy_statement</source>
+        <target><![CDATA[I've read, I've understand and I accept the <a href="%link%" rel="%link%" class="privacy">privacy notice</a>]]></target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_privacy_notice</source>
+        <target><![CDATA[
+			<h2>Privacy notice (italian art. 13 D.lgs. 196/2003)</h2>
+			<p>We inform that the law D.lgs. n. 196 of the 30th June 2003 ("Code for the protection of personal details") provides for the protection of people and other individuals in regards to the use of personal details. According to the indicated statement, such use will be set by the principles of correctness, lawfulness and transparency and of protection of your confidentiality and of your rights. According to article 13 of D.lgs. n.196/2003, therefore, we provide you the following information:</p>
+			<ol>
+				<li>The details you provide will be used for the following purposes: management and process of the supply contract of the services to which you subscribed; organisation, management and process of supply of services also through communication of the details to third parties our suppliers; performance of law obligations or other performances requested by the competent Authorities.</li>
+				<li>The use will be carried out with the following conditions: help of computer/manual tools.</li>
+				<li>Giving the details is obligatory for the purpose of valuating your request and the possible refusal of supplying such details could imply the non-fulfilment of your request.</li>
+				<li>Except for what is strictly necessary for the correct performance of the supply contract, the details in question will not be communicated to other individuals, nor will they be spread, if not without explicit consent.</li>
+			</ol>
+			<p>The holder of the use is <b>%owner_name%</b> <i>%owner_address% e-mail %owner_email%</i>, who you can contact in order to assert your rights as provided for by art.7 of Decreto Legislativo n. 196/2003 which we indicate here below:</p>
+			<h2>Art. 7 - Right to access to personal details and other rights</h2>
+			<ol>
+				<li>the interested party has the right to receive the confirmation of the existence or not of personal details which regard him or her, even if not yet registered, and possible communication of such details in an intelligible form;</li>
+				<li>the interested party has the right to obtain:
+					<ol style="list-style-type:lower-alpha;">
+						<li>the origin of the personal details;</li>
+						<li>the purposes and conditions of use;</li>
+						<li>the applied logic in case of use carried out with the help of electronic tools;</li>
+						<li>the identification details of the owner, managers and of the designated representative according to art. 5, paragraph 2;</li>
+						<li>the individuals or the categories of individuals to which the personal details can be communicated or that can obtain as designated representative in the territory of the State, as manager or delegate.</li>
+					</ol>
+				</li>
+				<li>the interested party has the right to obtain:
+					<ol style="list-style-type:lower-alpha;">
+						<li>the update, the rectification or rather, when necessary, the integration of the details;</li>
+						<li>the deletion, the transformation in an anonymous form or the blockage of the details used in violation of the law, including those which do not need to be conserved in relation to the purposes for which such details have been gathered or subsequently used;</li>
+						<li>the evidence that the operations mentioned in letters a) and b) have been brought to the attention, including its content, of those to which the details have been communicated or spread, except in cases in which such a measure proves to be impossible or implies the use of clearly disproportionate means in comparison to the protected right.</li>
+					</ol>				
+				</li>
+				<li>the interested party has the right to oppose, entirely or partly:
+					<ol style="list-style-type:lower-alpha;">
+						<li>to the use of personal details which regard him or her for legitimate reasons, even if related to the purposes of collection of such details; </li>
+						<li>to the use of personal details which regard him or her in order to send advertising material or direct sale or to carry out market researches or commercial communication.</li>						
+					</ol>
+				</li>
+			</ol>
+			<h2>Consent formula</h2>
+			<p>Having read the above information, and according to art. 13, Lgs. D. 196/2003, the user declares consent to the use of his or her personal details provided as described above.</p>
+		]]></target>
+      </trans-unit>
+
+    
+
+    </body>
+  </file>
+</xliff>

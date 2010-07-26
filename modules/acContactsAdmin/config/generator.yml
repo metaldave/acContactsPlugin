@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           acContact
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              contatto
+    plural:                contatti
+    route_prefix:          ac_contact
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display: [ email, _body, created_at ]
+        sort: [ created_at, desc ]
+        object_actions:
+          _delete: ~
+        actions: []
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

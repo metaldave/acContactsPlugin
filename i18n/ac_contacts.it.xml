@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="it_IT" datatype="plaintext">
+    <body>
+    
+    
+      <trans-unit>
+        <source>ac_contacts_title</source>
+        <target>Contattaci</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_message</source>
+        <target></target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_thanks</source>
+        <target>Grazie per averci contattati</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_privacy_statement</source>
+        <target><![CDATA[Il sottoscritto esprime il proprio libero e consapevole consenso per il trattamento dei propri dati da parte di %company_name%, per le finalità e con le modalità descritte nell'<a href="%link%" rel="%link%" class="privacy">informativa</a> di cui dichiara di aver ha preso atto.]]></target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>ac_contacts_privacy_notice</source>
+        <target><![CDATA[
+			<h2>Informativa per trattamento di dati ai sensi e per gli effetti di cui all'articolo 13, D.Lgs 30/06/2003 n.196</h2>
+			<p>In osservanza di quanto previsto dal D.Lgs 30.06.2003 n.196, <b>%full_company_name%</b> (di seguito <b>%company_name%</b>) in qualità di titolare del trattamento ex art. 28 Codice Privacy, viene a fornirLe le dovute informazione in ordine alle finalità e modalità del trattamento dei Suoi dati personali, nonché l'ambito di comunicazione e diffusione degli stessi, alla natura dei dati in nostro possesso e del loro conferimento.</p>
+			<h2>Tipologia dei dati trattati</h2>
+			<p>%company_name%, effettua operazioni di trattamento dei dati personali che Lei fornisce al momento delle trattative preliminari, della sottoscrizione del contratto e/o adesione al servizio, o che comunica nel corso dello svolgimento dello stesso. Si tratta di dati comuni, e nel caso in cui sia strettamente necessario di dati di tipo identificativo.</p>
+			<h2>Finalit&agrave; del trattamento</h2>
+			<p>Il trattamento dei dati personali è effettuato da %company_name% esclusivamente per i seguenti scopi:</p>
+			<ul>
+				<li>Obblighi di legge o atti aventi forza di legge e/o amministrativi contabili : fatturazione, scritture e registrazioni contabili obbligatorie, obblighi contrattuali connessi alla gestione del rapporto.</li>
+				<li>Compilazione di questionari e studi di settore.</li>
+				<li>Effettuare indagini di mercato e studi di marketing.</li>
+				<li>Trasmissioni di circolari e/o offerte promozionali</li>
+			</ul>
+			<h2>Modalit&agrave; e durata del trattamento</h2>
+			<p>I Suoi dati personali sono conservati su supporto informatico e cartaceo. Se necessario, si provvede al loro aggiornamento e/o modifica in conformità con le disposizioni vigenti in materia.</p>
+			<p>I dati vengono trattati all'interno della società, dai collaboratori e dai dipendenti che sono stati designati responsabili e/o incaricati del trattamento e che hanno ricevuto le necessarie ed adeguate informazioni in materia.</p>
+			<p>Il trattamento dei Suoi dati personali è effettuato in modo lecito e secondo correttezza, per scopi determinati, espliciti e legittimi, non eccedenti rispetto alle finalità e per un periodo di tempo non superiore a quello necessario agli scopi specificati, salvo diversa disposizione di legge o di atti aventi forza di legge, dopodiché sarà disposta la cessazione del trattamento, in ottemperanza all'art. 16 del D.Lgs 196/2003.</p>
+			<h2>Ambito di comunicazione e diffusione</h2>
+			<p>I suoi dati, oggetto del trattamento, sono/possono essere in seguito comunicati a:</p>
+			<ul>
+				<li>Le competenti Autorità Giudiziarie a seguito di specifico ordine per finalità inerenti alla prevenzione e repressione dei reati, a seguito di ispezioni o di verifiche all'amministrazione finanziaria da parte di organi di Polizia Tributaria, Guardia di Finanza, Ispettorato del Lavoro, ed in genere a tutti gli organi preposti a verifiche e controlli circa la regolarità degli adempimenti di cui alle finalità sopra indicate.</li>
+				<li>Studio commercialista per l'adempimento degli obblighi di Legge o atti aventi forza di Legge e/o amministrativi contabili.</li>
+				<li>Al personale degli uffici contabilità, amministrazione, direzione, commerciale come specificato nelle modalità del trattamento.</li>
+			</ul>
+			<h2>Natura del conferimento</h2>
+			<p>La informiamo che la comunicazione dei Suoi dati personali è necessaria ai fini dell'adempimento alle obbligazioni assunte contrattualmente e/o degli obblighi di Legge, amministrativi e contabili.</p>
+			<p>Si rende noto che il mancato conferimento, così come il conferimento parziale o inesatto, potrebbe avere come conseguenza quella di impedire il puntuale adempimento alle obbligazioni assunte da %company_name%; l'impossibilità per il titolare del trattamento di garantire la congruità del trattamento stesso in base ai patti contrattuali per cui esso è stato richiesto; la possibile mancata corrispondenza dei risultati del trattamento stesso agli obblighi imposti alla normativa fiscale, amministrativa o del lavoro a cui esso è indirizzato.</p>
+			<p>Lei può far valere i propri diritti come espressi dall'art. 7del D.Lgs n.196/2003, rivolgendosi al titolare del trattamento la <b>%owner_name%</b> con sede in <i>%owner_address% e-mail %owner_email%</i>.</p>
+			<h2>Art. 7. Diritto di accesso ai dati personali ed altri diritti</h2>
+			<ol>
+				<li>L'interessato ha diritto di ottenere la conferma dell'esistenza o meno di dati personali che lo riguardano, anche se non ancora registrati, e la loro comunicazione in forma intelligibile.</li>
+				<li>L'interessato ha diritto di ottenere l'indicazione:
+					<ol style="list-style-type:lower-alpha;">
+						<li>dell'origine dei dati personali;</li>
+						<li>delle finalità e modalità del trattamento;</li>
+						<li>della logica applicata in caso di trattamento effettuato con l'ausilio di strumenti elettronici;</li>
+						<li>degli estremi identificativi del titolare, dei responsabili e del rappresentante designato ai sensi dell'articolo 5, comma 2;</li>
+						<li>dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza in qualità di rappresentante designato nel territorio dello Stato, di responsabili o incaricati.</li>
+					</ol>
+				</li>
+				<li>L'interessato ha diritto di ottenere:
+					<ol style="list-style-type:lower-alpha;">
+						<li>l'aggiornamento, la rettificazione ovvero, quando vi ha interesse, l'integrazione dei dati;</li>
+						<li>la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;</li>
+						<li>l'attestazione che le operazioni di cui alle lettere a) e b) sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato.</li>
+					</ol>
+				</li>
+				<li>L'interessato ha diritto di opporsi, in tutto o in parte:
+					<ol style="list-style-type:lower-alpha;">
+						<li>per motivi legittimi al trattamento dei dati personali che lo riguardano, ancorché pertinenti allo scopo della raccolta;</li>
+						<li>al trattamento di dati personali che lo riguardano a fini di invio di materiale pubblicitario o di vendita diretta o per il compimento di ricerche di mercato o di comunicazione commerciale.</li>
+					</ol>
+				</li>
+			</ol>
+		]]></target>
+      </trans-unit>
+
+
+
+    </body>
+  </file>
+</xliff>

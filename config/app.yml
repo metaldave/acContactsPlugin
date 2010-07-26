@@ -1,0 +1,23 @@
+all:
+  ac_contact:
+    jquery_url:            http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js
+    culture_in_route:      true
+
+    recipients:  # destinatari della email inviata ogni volta che un utente usa la form dei contatti 
+      #davide@anycode.it: Davide anycode
+      info@ecsystem.it: ECSystem
+
+    schema: # elenco di campi addizionali, oltre a questi viene richista la email. questi campi vengono creati quando si fa un rebuild
+      field2: { name: nome,      type: string(255), notnull: 'true' }
+      field3: { name: cognome,   type: string(255), notnull: 'true' }
+      field4: { name: telefono,  type: string(255), notnull: 'true' }
+      field5: { name: messaggio, type: clob, notnull: 'false' }
+    sender_name_fields: [ nome, cognome ] # elenco dei campi che formano il nome (usato nel campo from della mail inviata)
+
+    privacy: # dati usati nel popup dell'informativa sulla privacy
+      company_name:      E.C.S.
+      full_company_name: E.C.S. Elettronica Consulenza Servizi S.r.l.
+      owner_name:        E.C.S. Elettronica Consulenza Servizi S.r.l.
+      owner_address:     via Kennedy, 19- Velasca di Vimercate (MI) - Tel. 039/6085245 - Fax. 039/6611272
+      owner_email:       info@ecsystem.it
+

@@ -1,0 +1,8 @@
+acContact:
+  actAs:
+    Timestampable: ~
+  columns:
+    email: { type: string(255), notnull: true }
+<?php foreach(sfConfig::get('app_ac_contact_schema') as $field):?>
+    <?php echo $field['name']?>: { type: <?php echo $field['type']?>, notnull: <?php echo $field['notnull']?>}
+<?php endforeach ?>
