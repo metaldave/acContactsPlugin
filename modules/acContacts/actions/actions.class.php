@@ -18,14 +18,19 @@ class acContactsActions extends sfActions
 			$this->form->bind($request->getParameter('ac_contact'));
 			if ($this->form->isValid())
 			{
+				// salva il referer e l'ip
+				$this->form->getObject()->setExternalReferer(sfContext::getInstance()->getUser()->getAttribute('external_referer','non definito','acContactsPlugin'));
+				if (isset($_SERVER['REMOTE_ADDR']))
+					$this->form->getObject()->setIp($_SERVER['REMOTE_ADDR']);
+					
 				// salva i dati
 				$this->form->save();
-				
+								
 				// e invia una mail
 				$contact = $this->form->getObject();
 				$this->getMailer()->composeAndSend(
 					$contact->getEmailForSwift(), // from
-					sfConfig::get('app_ac_contacts_recipients'), // to
+					sfConfig::get('app_ac_contact_recipients'), // to
 					$contact->getSubject(), // subject
 					$contact->getBody() // body 
 				);

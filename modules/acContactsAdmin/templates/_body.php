@@ -1,3 +1,3 @@
 <?php
-echo $contatto->getHtmlBody(ESC_RAW);
+echo $contatto->getHtmlBody(false, ESC_RAW);
 ?>

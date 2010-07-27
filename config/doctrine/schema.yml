@@ -6,3 +6,5 @@ acContact:
 <?php foreach(sfConfig::get('app_ac_contact_schema') as $field):?>
     <?php echo $field['name']?>: { type: <?php echo $field['type']?>, notnull: <?php echo $field['notnull']?>}
 <?php endforeach ?>
+    external_referer: { type: string(255) }
+    ip:               { type: varchar(30) }

@@ -12,9 +12,10 @@ abstract class PluginacContactForm extends BaseacContactForm
 {
 	public function setupInheritance()
 	{
-		unset($this['created_at'], $this['updated_at']);
+		unset($this['created_at'], $this['updated_at'], $this['external_referer'], $this['ip']);
 		
 		$this->validatorSchema['email'] = new sfValidatorEmail(array('required'=>true));
+				
 		
 		$this->widgetSchema['privacy'] = new sfWidgetFormInputPrivacy();		
 		$this->validatorSchema['privacy'] = new sfValidatorBoolean(array('required'=>true));

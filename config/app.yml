@@ -3,9 +3,8 @@ all:
     jquery_url:            http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js
     culture_in_route:      true
 
-    recipients:  # destinatari della email inviata ogni volta che un utente usa la form dei contatti 
-      #davide@anycode.it: Davide anycode
-      info@ecsystem.it: ECSystem
+#    recipients:  # destinatari della email inviata ogni volta che un utente usa la form dei contatti 
+#      #davide@anycode.it: Davide anycode
 
     schema: # elenco di campi addizionali, oltre a questi viene richista la email. questi campi vengono creati quando si fa un rebuild
       field2: { name: nome,      type: string(255), notnull: 'true' }

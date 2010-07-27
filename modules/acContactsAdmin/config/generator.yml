@@ -13,14 +13,17 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
+      fields:
+        external_referer: { label: Sito di provenienza }
+        created_at: { label: Data }
       list:
-        display: [ email, _body, created_at ]
+        display: [ email, _body, _external_referer, created_at ]
         sort: [ created_at, desc ]
         object_actions:
           _delete: ~
         actions: []
-      filter:  ~
+      filter:
+        class: false
       form:    ~
       edit:    ~
       new:     ~

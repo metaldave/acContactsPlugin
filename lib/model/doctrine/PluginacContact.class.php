@@ -33,18 +33,22 @@ abstract class PluginacContact extends BaseacContact
 		return 'Contatto inviato tramite il sito '.$_SERVER['HTTP_HOST'];
 	}
 	
-	public function getBody()
+	public function getBody($with_referer = true)
+	{
+		return strip_tags(str_replace('<br/>',"\n",$this->getHtmlBody($with_referer)));
+	}
+	
+	public function getHtmlBody($with_referer = true)
 	{
 		$body = '';
 		foreach(sfConfig::get('app_ac_contact_schema') as $key => $field)
 		{
-			$body .= $field['name'].': '.$this->$field['name']."\n";
+			$body .= $field['name'].': <b>'.$this->$field['name'].'</b><br/>';
 		}
+		if ($with_referer)
+			$body .= 'Sito di provenienza: <b>'.$this->external_referer.'</b>';
 		return $body;
-	}
-	
-	public function getHtmlBody()
-	{
-		return str_replace("\n",'<br/>',$this->getBody());
+		
+		
 	}
 }
